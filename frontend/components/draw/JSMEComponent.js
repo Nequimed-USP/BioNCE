@@ -45,7 +45,7 @@ function JSMEComponent({ callback }) {
   return(
     <>
       <NonSSRHead>
-        <script type="text/javascript" src="https://peter-ertl.com/jsme/JSME_2020-06-11/jsme/jsme.nocache.js" />
+        <script type="text/javascript" src="https://raw.githubusercontent.com/jsme-editor/jsme-editor.github.io/main/dist/jsme/jsme.nocache.js" />
       </NonSSRHead>
       <div id={ "jsme_container" } style={{height: '311px'}} />
     </>
